@@ -1,0 +1,110 @@
+{
+  "version": "0.2.0",
+  "name": "Untitled Project",
+  "mapView": {
+    "center": [
+      -43.9396852129791,
+      -19.97091133082624
+    ],
+    "zoom": 11.787289709436356,
+    "bearing": 0,
+    "pitch": 0,
+    "bbox": [
+      -44.05420772042942,
+      -20.057780649558467,
+      -43.825162705525884,
+      -19.883971652041723
+    ]
+  },
+  "basemapStyleUrl": "https://tiles.openfreemap.org/styles/liberty",
+  "basemapVisible": true,
+  "basemapOpacity": 1,
+  "layers": [],
+  "selectedLayerId": null,
+  "styles": {},
+  "preferences": {
+    "map": {
+      "restrictBounds": false,
+      "bounds": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "minZoom": 0,
+      "maxZoom": 24,
+      "maxPitch": 85,
+      "renderWorldCopies": true,
+      "projection": "globe",
+      "ellipsoidId": "earth",
+      "scaleUnit": "metric",
+      "showPointerElevation": false,
+      "terrainEnabled": false,
+      "coordinateFormat": "dd",
+      "mapboxStyleUrl": "mapbox://styles/mapbox/standard",
+      "arcgisBasemap": "arcgis/streets",
+      "cesiumBasemap": "bing-aerial"
+    },
+    "environmentVariables": [],
+    "geocoding": {
+      "providerId": "nominatim",
+      "apiKeys": {}
+    }
+  },
+  "plugins": {
+    "manifestUrls": [],
+    "activePluginIds": [
+      "maplibre-layer-control",
+      "maplibre-atmosphere-effects",
+      "maplibre-deckgl-viz"
+    ],
+    "mapControlPositions": {
+      "maplibre-layer-control": "top-right",
+      "maplibre-gl-geo-editor": "top-left",
+      "maplibre-gl-annotations": "top-left",
+      "maplibre-gl-dimensions": "top-left",
+      "maplibre-gl-basemap-control": "top-left",
+      "maplibre-gl-esri-wayback": "top-left",
+      "maplibre-gl-time-slider": "bottom-left",
+      "geolibre-timelapse": "top-left",
+      "maplibre-gl-overture-maps": "top-left",
+      "maplibre-gl-geoagent": "top-left",
+      "maplibre-gl-usgs-lidar": "top-left",
+      "maplibre-gl-streetview": "top-right",
+      "maplibre-gl-mapillary": "top-left",
+      "geolibre-elevation-profile": "top-left",
+      "maplibre-gl-swipe": "top-left",
+      "maplibre-gl-components": "top-right"
+    },
+    "settings": {
+      "gods-eye-view": {
+        "flights": false,
+        "militaryFlights": false,
+        "satellites": true,
+        "bikeShare": false,
+        "vessels": false,
+        "transit": false,
+        "streetTraffic": false,
+        "osmInfrastructure": false,
+        "datacenters": false,
+        "cables": false,
+        "dams": false,
+        "earthquakes": true,
+        "spaceMissions": false,
+        "activeFires": false,
+        "mappedAlpr": false,
+        "cctv": false,
+        "radio": false,
+        "dense": false,
+        "speed": 1
+      }
+    }
+  },
+  "legend": {
+    "title": "Legend",
+    "groupByLayer": true,
+    "order": [],
+    "overrides": {}
+  },
+  "metadata": {}
+}
